@@ -11,4 +11,10 @@ class Cliente
     {
         echo "O cliente realizou uma compra";
     }
+
+    public function cancelar()
+    {
+        echo "O cliente cancelou uma compra";
+    }
+
 }
